@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import Header from '@/components/Header.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Header>
+    <template #title>Portifolio Titulo</template>
+    </Header>
   </main>
 </template>
